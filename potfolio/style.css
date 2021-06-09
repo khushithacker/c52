@@ -1,0 +1,72 @@
+h1{
+    color: magenta;
+    padding-left:100px;
+}
+
+{
+    border: solid;
+}
+
+.header{
+    background-color: papayawhip;
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: peachpuff;
+    margin-right: 100px;
+}
+
+.grid{
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.game{
+    background-color: rosybrown;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2,p{
+
+    text-align: center;
+}
+
+body{
+    background-color: tomato;                                                                                                                                                                                                                                                                                                                                                                                                                
+}
+
+a:link{
+    color: rgb(255, 0, 255);
+}
+
+a:visited{
+    color: yellow;
+}
+
+.game{
+    position: relative;
+}
+
+.game p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.game:hover p{
+    opacity: 1;
+}
+
+.game:hover img{
+    opacity: 0.5;
+}
